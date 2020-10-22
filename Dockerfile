@@ -1,4 +1,5 @@
-FROM aazout/simple-web:latest
+#FROM aazout/simple-web:latest
+FROM cotafactory.jfrog.io/docker-quickstart/python:2.7
 EXPOSE 80
 WORKDIR /code
 ADD . /code
